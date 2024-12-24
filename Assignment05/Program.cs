@@ -178,9 +178,9 @@ namespace Assignment05
         //static void Main()
         //{
         //    int number = 10;
-        //    Console.WriteLine("Before: " + number); // Output: 10
+        //    Console.WriteLine( number); 
         //    IncrementByReference(ref number);
-        //    Console.WriteLine("After: " + number);  // Output: 15
+        //    Console.WriteLine( number);  
         //}
 
         //static void IncrementByReference(ref int num)
@@ -199,16 +199,16 @@ namespace Assignment05
 
         //    static void Main()
         //    {
-        //        Person person = new Person { Name = "Alice" };
-        //        Console.WriteLine("Before: " + person.Name); // Output: Alice
+        //        Person person = new Person { Name = "Donya" };
+        //        Console.WriteLine(Name);
         //        ChangeNameByValue(person);
-        //        Console.WriteLine("After: " + person.Name);  // Output: Bob
+        //        Console.WriteLine(person.Name);  
         //    }
 
         //    static void ChangeNameByValue(Person p)
         //    {
-        //        p.Name = "Bob"; // This changes the object's data
-        //        p = new Person { Name = "Charlie" }; // This does not affect the original reference
+        //        p.Name = "Donya"; 
+        //        p = new Person { Name = "Sameh" }; 
         //    }
         //}
 
@@ -217,16 +217,16 @@ namespace Assignment05
 
         //    static void Main()
         //    {
-        //        Person person = new Person { Name = "Alice" };
-        //        Console.WriteLine("Before: " + person.Name); // Output: Alice
+        //        Person person = new Person { Name = "Donya" };
+        //        Console.WriteLine(person.Name); 
         //        ChangeNameByReference(ref person);
-        //        Console.WriteLine("After: " + person.Name);  // Output: Charlie
+        //        Console.WriteLine(person.Name);  
         //    }
 
         //    static void ChangeNameByReference(ref Person p)
         //    {
-        //        p.Name = "Bob"; // This changes the object's data
-        //        p = new Person { Name = "Charlie" }; // This changes the original reference
+        //        p.Name = "Donya";
+        //        p = new Person { Name = "Sameh" }; 
         //    }
         //}
 
@@ -236,7 +236,6 @@ namespace Assignment05
         #region Q3
         //static void Main()
         //{
-        //    // Accepting four parameters from the user
         //    Console.WriteLine("Enter the first number:");
         //    int num1 = int.Parse(Console.ReadLine());
 
@@ -248,11 +247,7 @@ namespace Assignment05
 
         //    Console.WriteLine("Enter the fourth number:");
         //    int num4 = int.Parse(Console.ReadLine());
-
-        //    // Calling the function and getting the results
         //    (int sum, int difference) = Calculate(num1, num2, num3, num4);
-
-        //    // Displaying the results
         //    Console.WriteLine($"Sum of {num1} and {num2} is: {sum}");
         //    Console.WriteLine($"Difference between {num3} and {num4} is: {difference}");
         //}
@@ -365,34 +360,6 @@ namespace Assignment05
 
 
         #region Q8
-
-        //static void Main()
-        //{
-        //    Console.WriteLine("Enter the original string:");
-        //    string originalString = Console.ReadLine();
-
-        //    Console.WriteLine("Enter the position to change (0-based index):");
-        //    int position = int.Parse(Console.ReadLine());
-
-        //    Console.WriteLine("Enter the new character:");
-        //    char newChar = Console.ReadKey().KeyChar;
-        //    Console.WriteLine();
-
-        //    string modifiedString = ChangeChar(originalString, position, newChar);
-        //    Console.WriteLine($"Modified string: {modifiedString}");
-        //}
-
-        //static string ChangeChar(string str, int pos, char newChar)
-        //{
-        //    if (pos < 0 || pos >= str.Length)
-        //    {
-        //        throw new ArgumentOutOfRangeException(nameof(pos), "Position is out of range.");
-        //    }
-
-        //    char[] charArray = str.ToCharArray();
-        //    charArray[pos] = newChar;
-        //    return new string(charArray);
-        //}
 
         #endregion
 
